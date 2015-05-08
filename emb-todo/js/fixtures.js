@@ -2,6 +2,8 @@
 var Todos = Todos || {};
 Todos.Todo = Todos.Todo || {};
 
+// Ember requires id's !
+// FIXTURES is not part of Ember, it is just an array to loop over
 Todos.Todo.FIXTURES = [
  {
    id: 1,
