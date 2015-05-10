@@ -1,5 +1,6 @@
 // This is so you don't have to type up dummy data.
 var app = app || {};
+
 app.FIXTURES = [
   {val: 'Such task', completed:true},
   {val: 'Much productivity', completed: true},
