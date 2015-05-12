@@ -4,7 +4,7 @@
 window.Todos = Ember.Application.create();
 
 // The concept of data adapter gives the possibility to switch
-// between different data sources on the fly, like local or AJAX
+// between different data sources on the fly, like between a local source and remote via AJAX
 
 // Data Adapter
 Todos.ApplicationAdapter = DS.FixtureAdapter.extend();
